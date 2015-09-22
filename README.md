@@ -2,7 +2,7 @@
 
 The backend server has 2 endpoints that you need to interface with. Details are below.
 
-### GET /get-problem/<netid>
+### GET /get-problem/\<netid\>
 
 Get a new problem to solve. You must put your netid where <netid> is in the URL.
 
