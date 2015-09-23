@@ -2,7 +2,7 @@
 
 The backend server has 2 endpoints that you need to interface with. Details are below.
 
-### GET /get-problem/<netid>
+### GET /get-problem/\<netid\>
 
 Get a new problem to solve. You must put your netid where <netid> is in the URL.
 
@@ -22,6 +22,8 @@ Your answer must be JSON-encoded with the following parameters:
 ## Suggestions
 
 Read up on how to get started using the [Requests library](http://www.python-requests.org/en/latest/) and the [JSON library](https://docs.python.org/2/library/json.html). 
+
+Read up on the [JSON format](https://en.wikipedia.org/wiki/JSON#Data_types.2C_syntax_and_example).
 
 Your program should be written in Python 2. For the differences between Python 2 and 3, read up on it [here](https://wiki.python.org/moin/Python2orPython3).
 
